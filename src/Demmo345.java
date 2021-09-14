@@ -1,6 +1,9 @@
 public class Demmo345 {
   public static void main(String[] args) {
-    System.out.println("welcome to java ");
+
+    System.out.println("inside Main method ");
+    Demmo345 obj = new Demmo345();
+    
   }
   Demmo345()
   {
@@ -15,5 +18,7 @@ public class Demmo345 {
   {
     System.out.println("static block ");
   }
-  
-}
+
+
+  }
+
