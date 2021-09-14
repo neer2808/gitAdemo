@@ -6,4 +6,14 @@ public class Demmo345 {
   {
     System.out.println("inside constructor ");
   }
+  // instance block
+  {
+    System.out.println("instance block");
+  }
+  // static block
+  static
+  {
+    System.out.println("static block ");
+  }
+  
 }
