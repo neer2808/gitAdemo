@@ -3,7 +3,10 @@ public class Demmo345 {
 
     System.out.println("inside Main method ");
     Demmo345 obj = new Demmo345();
-    
+
+  }
+  {
+    System.out.println("instance block 2");
   }
   Demmo345()
   {
@@ -11,7 +14,7 @@ public class Demmo345 {
   }
   // instance block
   {
-    System.out.println("instance block");
+    System.out.println("instance block 1");
   }
   // static block
   static
